@@ -11,13 +11,23 @@
   margin-bottom: 0;
 }
 .geo-profile-description {
-    margin-top: 30px
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
 }
 
-.geo-big-title {}
+.geo-big-title {
+      color: white;
+}
 
 .geo-body {
     background-color: darkgrey
 }
+
+.geo-timeline{
+    
+}
+
+
  body {
   }

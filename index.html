@@ -10,12 +10,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/geo.js"></script>
+    <script src="js/smoothscroll.js"></script>
     
 </head>
 
 <body class="geo-body">
 <header class="nav-down">
-    <nav class="navbar geo-navbar navbar-inverse">
+    <nav class="navbar  navbar-inverse geo-navbar ">
         
         <div class="container-fluid geo-navbar">
             <div class="navbar-header">
@@ -26,12 +27,12 @@
                 </button>
                 <a class="navbar-brand" href="#">Geovane Pereira</a>
             </div>
-            <div class="collapse navbar-collapse geo-navbar" id="myNavbar">
+            <div class="collapse navbar-collapse geo-navbar page-scroll" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">About Me</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a class="smoothScroll" href="#about">About Me</a></li>
+                    <li><a  class="smoothScroll" href="#resume">Resume</a></li>
+                    <li><a  class="smoothScroll" href="#project">Projects</a></li>
+                    <li><a  class="smoothScroll" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </div>
@@ -39,7 +40,7 @@
     </nav>
     </header>
     <!--NaoCria uma margem na tela -->
-    <div class=" container-fluid geo-profile">
+    <div id="about" class=" container-fluid geo-profile">
 
         <div class="row">
             <h1 class="geo-big-title  text-center">Hello, I am Geo</h1>
@@ -61,7 +62,21 @@
     </div>
     
     <!-- timeline -->
-    <div class="geo-timeline">
+    <div id="resume" class="geo-timeline">
+        
+    
+    
+    
+    
+    </div>
+      <div id="project" class="geo-project">
+        
+    
+    
+    
+    
+    </div>
+      <div id="contact" class="geo-contact">
         
     
     

@@ -1,6 +1,7 @@
 .geo-profile {
     background-color: darkslategray;
     margin-top:0px;
+    margin-bottom: 40px;
 }
 
 
@@ -9,6 +10,7 @@
 }
 .geo-navbar{
   margin-bottom: 0;
+    border-style: none;
 }
 .geo-profile-description {
     margin-top: 30px;
@@ -26,7 +28,16 @@
 }
 
 .geo-timeline{
-    
+    min-height: 900px;
+    background-color: azure
+}
+.geo-project{
+    min-height: 600px;
+    background-color: darkseagreen;
+}
+.geo-contact{
+    min-height: 400px;
+    background-color: slategrey;
 }
 body {
  

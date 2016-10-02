@@ -9,8 +9,9 @@
     margin-top: 30px
 }
 .geo-navbar{
-  margin-bottom: 0;
+    margin-bottom: 0;
     border-style: none;
+    background-color: aqua
 }
 .geo-profile-description {
     margin-top: 30px;
@@ -28,15 +29,15 @@
 }
 
 .geo-timeline{
-    min-height: 900px;
+    min-height: 100vh;
     background-color: azure
 }
 .geo-project{
-    min-height: 600px;
+    min-height: 100vh;
     background-color: darkseagreen;
 }
 .geo-contact{
-    min-height: 400px;
+    min-height: 80vh;
     background-color: slategrey;
 }
 body {
@@ -54,4 +55,7 @@ header {
 .nav-up{
     top: -55px;
 
+}
+.navbar-brand:link{
+    color:aquamarine
 }

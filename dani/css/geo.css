@@ -1,0 +1,61 @@
+.geo-profile {
+    background-color: darkslategray;
+    margin-top:0px;
+    margin-bottom: 40px;
+}
+
+
+.geo-profile-photo {
+    margin-top: 30px
+}
+.geo-navbar{
+    margin-bottom: 0;
+    border-style: none;
+    background-color: black
+}
+.geo-profile-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.geo-big-title {
+      color: white;
+}
+
+.geo-body {
+    background-color: darkslategray;
+       padding-top: 50px;
+}
+
+.geo-timeline{
+    min-height: 100vh;
+    background-color: azure
+}
+.geo-project{
+    min-height: 100vh;
+    background-color: darkseagreen;
+}
+.geo-contact{
+    min-height: 80vh;
+    background-color: slategrey;
+}
+body {
+ 
+}
+header {
+    background: #f5b335;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+     z-index: 2000;
+}
+.nav-up{
+    top: -55px;
+
+}
+.navbar-brand:link{
+    color:aquamarine
+}

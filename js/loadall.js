@@ -57,7 +57,7 @@ var resume = {
     */
     'skills': [{
         "name": "Photoshop",
-        "knowlege": "80",
+        "knowlege": 80,
         "icon": ""
     }]
 

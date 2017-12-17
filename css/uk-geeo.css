@@ -1,0 +1,28 @@
+.geo-c1{
+    background-color:#08a4ffbd
+}
+.geo-circle-image{
+    border-radius: 50%
+}
+.geo-bordered{
+    border: 1pt;
+   border-color:aquamarine;
+    border-style: dotted;
+}
+
+/*
+.geo-profile {
+    background-color: darkslategray;
+    margin-top:0px;
+    margin-bottom: 40px;
+}
+body {
+ font-family: 'Roboto', sans-serif;
+}
+header {
+    background: #f5b335;
+    height: 40px;
+    position: fixed;
+    top: 0;
+}
+*/
